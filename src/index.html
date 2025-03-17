@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAMUNA BIDHYA NIKETAN</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>NAMUNA BIDHYA NIKETAN</h1>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#programs">Programs</a>
+            <a href="#facilities">Facilities</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="theme-switcher">
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to NAMUNA BIDHYA NIKETAN
+            </h1>
+            <p>Nurturing Minds, Shaping Futures</p>
+            <a href="#contact" class="cta-button">Apply Now</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>NAMUNA BIDHYA NIKETAN is committed to providing quality education since 1995. Our mission is to nurture young minds and prepare them for the challenges of tomorrow.</p>
+                <ul class="achievements">
+                    <li><i class="fas fa-graduation-cap"></i> 100% Graduation Rate</li>
+                    <li><i class="fas fa-award"></i> Award-winning Faculty</li>
+                    <li><i class="fas fa-users"></i> Small Class Sizes</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="programs" class="programs">
+        <h2>Our Programs</h2>
+        <div class="program-cards">
+            <div class="program-card">
+                <i class="fas fa-child"></i>
+                <h3>Primary Education</h3>
+                <p>Grades 1-5 with focus on fundamental skills</p>
+            </div>
+            <div class="program-card">
+                <i class="fas fa-book-reader"></i>
+                <h3>Middle School</h3>
+                <p>Grades 6-8 with advanced curriculum</p>
+            </div>
+            <div class="program-card">
+                <i class="fas fa-university"></i>
+                <h3>High School</h3>
+                <p>Grades 9-12 with college preparation</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="facilities" class="facilities">
+        <h2>Our Facilities</h2>
+        <div class="facility-grid">
+            <div class="facility">
+                <i class="fas fa-flask"></i>
+                <h3>Science Labs</h3>
+            </div>
+            <div class="facility">
+                <i class="fas fa-laptop"></i>
+                <h3>Computer Labs</h3>
+            </div>
+            <div class="facility">
+                <i class="fas fa-futbol"></i>
+                <h3>Sports Complex</h3>
+            </div>
+            <div class="facility">
+                <i class="fas fa-book"></i>
+                <h3>Library</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3515.541660284473!2d81.69580527534733!3d28.19699397669786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399813ff5c9b3097%3A0x9cda09b79e1e8a72!2sNamuna%20Bidya%20Sadan!5e0!3m2!1sen!2snp!4v1709726901544!5m2!1sen!2snp" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <select name="program" required>
+                    <option value="">Select Class</option>
+                    <option value="1">Class 1</option>
+                    <option value="2">Class 2</option>
+                    <option value="3">Class 3</option>
+                    <option value="4">Class 4</option>
+                    <option value="5">Class 5</option>
+                    <option value="6">Class 6</option>
+                    <option value="7">Class 7</option>
+                    <option value="8">Class 8</option>
+                    <option value="9">Class 9</option>
+                    <option value="10">Class 10</option>
+                    <option value="+2" class="value">+2 Program</option>
+                </select>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Address</h3>
+                <p>Namuna Bidhya Sadan</p>
+                <p>Kohalpur, Banke, Nepal</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Phone: +977-081-540021</p>
+                <p>Email: info@namunabidhyasadan.edu.np</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; NAMUNA BIDHYA NIKETAN 2025. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
